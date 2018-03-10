@@ -1,0 +1,761 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@drawable/daff">
+    
+     <ImageButton
+        android:id="@+id/imageButton34"
+        android:layout_width="380dp"
+        android:layout_height="300dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="160dp"
+        android:background="#00000000"
+        android:scaleType="fitXY"
+        android:src="@drawable/key34" />
+     
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+ 		android:layout_marginTop="240dp"
+ 		android:layout_marginBottom="5dp"
+ 		android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+ 		android:orientation="horizontal">
+        
+	    <LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal">
+	     
+			    <LinearLayout
+			        android:id="@+id/gp1"
+			        android:layout_width="match_parent"
+			        android:layout_height="wrap_content"
+			        android:layout_weight="1"
+			        android:gravity="center"
+			        android:orientation="vertical" >
+				    <ImageButton
+				        android:id="@+id/imageButton1"
+				        android:layout_width="match_parent"
+				        android:layout_height="wrap_content"
+				        android:scaleType="fitXY"
+				        android:background="#00000000"
+				        android:src="@drawable/key1_1" />
+				    <LinearLayout
+				        android:layout_width="match_parent"
+				        android:layout_height="wrap_content"
+				        android:layout_marginLeft="5dp"
+				        android:gravity="center_vertical"
+				        android:orientation="horizontal" >
+				        <TextView 
+					        android:layout_width="wrap_content"
+					        android:layout_height="wrap_content"
+							android:textSize="9sp"
+							android:textColor="#FFFFFF"
+					        android:text="时长\n(min)" />
+					    <EditText
+					         android:id="@+id/ET1"
+					         android:layout_width="45dp"
+					         android:layout_height="wrap_content"
+					         android:layout_marginLeft="3dp"
+					         android:gravity="center"
+					         android:text="0"
+					         android:background="@drawable/et"
+					         android:inputType="number" />
+					</LinearLayout> 
+				    <ImageButton
+				        android:id="@+id/imageButton4"
+				        android:layout_width="match_parent"
+				        android:layout_height="wrap_content"
+				        android:scaleType="fitXY"
+				        android:background="#00000000"
+				        android:src="@drawable/key4_1" />
+				    <LinearLayout
+				        android:layout_width="match_parent"
+				        android:layout_height="wrap_content"
+			            android:layout_marginLeft="5dp"
+			            android:gravity="center_vertical"
+				        android:orientation="horizontal" >
+				        <TextView 
+					        android:layout_width="wrap_content"
+					        android:layout_height="wrap_content"
+							android:textSize="9sp"
+							android:textColor="#FFFFFF"
+					        android:text="时长\n(min)" />
+					    <EditText
+					         android:id="@+id/ET4"
+					         android:layout_width="45dp"
+					         android:layout_height="wrap_content"
+					         android:layout_marginLeft="3dp"
+					         android:gravity="center"
+					         android:text="0"
+					         android:background="@drawable/et"
+					         android:inputType="number" />
+				     </LinearLayout> 
+				     <ImageButton
+				        android:id="@+id/imageButton7"
+				        android:layout_width="match_parent"
+				        android:layout_height="wrap_content"
+				        android:scaleType="fitXY"
+				        android:background="#00000000"
+				        android:src="@drawable/key7_1" />
+				    <LinearLayout
+				        android:layout_width="match_parent"
+				        android:layout_height="wrap_content"
+				        android:layout_marginLeft="5dp"
+				        android:gravity="center_vertical"
+				        android:orientation="horizontal" >
+				        <TextView 
+					        android:layout_width="wrap_content"
+					        android:layout_height="wrap_content"
+							android:textSize="9sp"
+							android:textColor="#FFFFFF"
+					        android:text="时长\n(min)" />
+					    <EditText
+					         android:id="@+id/ET7"
+					         android:layout_width="45dp"
+					         android:layout_height="wrap_content"
+					         android:layout_marginLeft="3dp"
+					         android:gravity="center"
+					         android:text="0"
+					         android:background="@drawable/et"
+					         android:inputType="number" />
+					</LinearLayout> 
+				    <ImageButton
+				        android:id="@+id/imageButton10"
+				        android:layout_width="match_parent"
+				        android:layout_height="wrap_content"
+				        android:scaleType="fitXY"
+				        android:background="#00000000"
+				        android:src="@drawable/key10_1" />
+				    <LinearLayout
+				        android:layout_width="match_parent"
+				        android:layout_height="wrap_content"
+			            android:layout_marginLeft="5dp"
+			            android:gravity="center_vertical"
+				        android:orientation="horizontal" >
+				        <TextView 
+					        android:layout_width="wrap_content"
+					        android:layout_height="wrap_content"
+							android:textSize="9sp"
+							android:textColor="#FFFFFF"
+					        android:text="时长\n(min)" />
+					    <EditText
+					         android:id="@+id/ET10"
+					         android:layout_width="45dp"
+					         android:layout_height="wrap_content"
+					         android:layout_marginLeft="3dp"
+					         android:gravity="center"
+					         android:text="0"
+					         android:background="@drawable/et"
+					         android:inputType="number" />
+				     </LinearLayout>
+				     <ImageButton
+				        android:id="@+id/imageButton13"
+				        android:layout_width="match_parent"
+				        android:layout_height="wrap_content"
+				        android:scaleType="fitXY"
+				        android:background="#00000000"
+				        android:src="@drawable/key13_1" />
+				    <LinearLayout
+				        android:layout_width="match_parent"
+				        android:layout_height="wrap_content"
+				        android:layout_marginLeft="5dp"
+				        android:gravity="center_vertical"
+				        android:orientation="horizontal" >
+				        <TextView 
+					        android:layout_width="wrap_content"
+					        android:layout_height="wrap_content"
+							android:textSize="9sp"
+							android:textColor="#FFFFFF"
+					        android:text="时长\n(min)" />
+					    <EditText
+					         android:id="@+id/ET13"
+					         android:layout_width="45dp"
+					         android:layout_height="wrap_content"
+					         android:layout_marginLeft="3dp"
+					         android:gravity="center"
+					         android:text="0"
+					         android:background="@drawable/et"
+					         android:inputType="number" />
+					</LinearLayout> 
+				    <ImageButton
+				        android:id="@+id/imageButton16"
+				        android:layout_width="match_parent"
+				        android:layout_height="wrap_content"
+				        android:scaleType="fitXY"
+				        android:background="#00000000"
+				        android:src="@drawable/key16_1" />
+				    <LinearLayout
+				        android:layout_width="match_parent"
+				        android:layout_height="wrap_content"
+			            android:layout_marginLeft="5dp"
+			            android:gravity="center_vertical"
+				        android:orientation="horizontal" >
+				        <TextView 
+					        android:layout_width="wrap_content"
+					        android:layout_height="wrap_content"
+							android:textSize="9sp"
+							android:textColor="#FFFFFF"
+					        android:text="时长\n(min)" />
+					    <EditText
+					         android:id="@+id/ET16"
+					         android:layout_width="45dp"
+					         android:layout_height="wrap_content"
+					         android:layout_marginLeft="3dp"
+					         android:gravity="center"
+					         android:text="0"
+					         android:background="@drawable/et"
+					         android:inputType="number" />
+				     </LinearLayout> 
+	   				 <ImageButton
+				        android:id="@+id/imageButton19"
+				        android:layout_width="match_parent"
+				        android:layout_height="wrap_content"
+				        android:scaleType="fitXY"
+				        android:background="#00000000"
+				        android:src="@drawable/key19_1" />
+				    <LinearLayout
+				        android:layout_width="match_parent"
+				        android:layout_height="wrap_content"
+				        android:layout_marginLeft="5dp"
+				        android:gravity="center_vertical"
+				        android:orientation="horizontal" >
+				        <TextView 
+					        android:layout_width="wrap_content"
+					        android:layout_height="wrap_content"
+							android:textSize="9sp"
+							android:textColor="#FFFFFF"
+					        android:text="时长\n(min)" />
+					    <EditText
+					         android:id="@+id/ET19"
+					         android:layout_width="45dp"
+					         android:layout_height="wrap_content"
+					         android:layout_marginLeft="3dp"
+					         android:gravity="center"
+					         android:text="0"
+					         android:background="@drawable/et"
+					         android:inputType="number" />
+					</LinearLayout> 
+				    <ImageButton
+				        android:id="@+id/imageButton22"
+				        android:layout_width="match_parent"
+				        android:layout_height="wrap_content"
+				        android:scaleType="fitXY"
+				        android:background="#00000000"
+				        android:src="@drawable/key22_1" />
+				    <LinearLayout
+				        android:layout_width="match_parent"
+				        android:layout_height="wrap_content"
+			            android:layout_marginLeft="5dp"
+			            android:gravity="center_vertical"
+				        android:orientation="horizontal" >
+				        <TextView 
+					        android:layout_width="wrap_content"
+					        android:layout_height="wrap_content"
+							android:textSize="9sp"
+							android:textColor="#FFFFFF"
+					        android:text="时长\n(min)" />
+					    <EditText
+					         android:id="@+id/ET22"
+					         android:layout_width="45dp"
+					         android:layout_height="wrap_content"
+					         android:layout_marginLeft="3dp"
+					         android:gravity="center"
+					         android:text="0"
+					         android:background="@drawable/et"
+					         android:inputType="number" />
+				     </LinearLayout> 
+					 <ImageButton
+				        android:id="@+id/imageButton25"
+				        android:layout_width="match_parent"
+				        android:layout_height="wrap_content"
+				        android:scaleType="fitXY"
+				        android:background="#00000000"
+				        android:src="@drawable/key25_1" />
+				    <LinearLayout
+				        android:layout_width="match_parent"
+				        android:layout_height="wrap_content"
+				        android:layout_marginLeft="5dp"
+				        android:gravity="center_vertical"
+				        android:orientation="horizontal" >
+				        <TextView 
+					        android:layout_width="wrap_content"
+					        android:layout_height="wrap_content"
+							android:textSize="9sp"
+							android:textColor="#FFFFFF"
+					        android:text="时长\n(min)" />
+					    <EditText
+					         android:id="@+id/ET25"
+					         android:layout_width="45dp"
+					         android:layout_height="wrap_content"
+					         android:layout_marginLeft="3dp"
+					         android:gravity="center"
+					         android:text="0"
+					         android:background="@drawable/et"
+					         android:inputType="number" />
+					</LinearLayout> 
+				    <ImageButton
+				        android:id="@+id/imageButton28"
+				        android:layout_width="match_parent"
+				        android:layout_height="wrap_content"
+				        android:scaleType="fitXY"
+				        android:background="#00000000"
+				        android:src="@drawable/key28_1" />
+				    <LinearLayout
+				        android:layout_width="match_parent"
+				        android:layout_height="wrap_content"
+			            android:layout_marginLeft="5dp"
+			            android:gravity="center_vertical"
+				        android:orientation="horizontal" >
+				        <TextView 
+					        android:layout_width="wrap_content"
+					        android:layout_height="wrap_content"
+							android:textSize="9sp"
+							android:textColor="#FFFFFF"
+					        android:text="时长\n(min)" />
+					    <EditText
+					         android:id="@+id/ET28"
+					         android:layout_width="45dp"
+					         android:layout_height="wrap_content"
+					         android:layout_marginLeft="3dp"
+					         android:gravity="center"
+					         android:text="0"
+					         android:background="@drawable/et"
+					         android:inputType="number" />
+				     </LinearLayout> 
+					 <ImageButton
+				        android:id="@+id/imageButton31"
+				        android:layout_width="match_parent"
+				        android:layout_height="wrap_content"
+				        android:scaleType="fitXY"
+				        android:background="#00000000"
+				        android:src="@drawable/key31_1" />
+				    <LinearLayout
+				        android:layout_width="match_parent"
+				        android:layout_height="wrap_content"
+				        android:layout_marginLeft="5dp"
+				        android:gravity="center_vertical"
+				        android:orientation="horizontal" >
+				        <TextView 
+					        android:layout_width="wrap_content"
+					        android:layout_height="wrap_content"
+							android:textSize="9sp"
+							android:textColor="#FFFFFF"
+					        android:text="时长\n(min)" />
+					    <EditText
+					         android:id="@+id/ET31"
+					         android:layout_width="45dp"
+					         android:layout_height="wrap_content"
+					         android:layout_marginLeft="3dp"
+					         android:gravity="center"
+					         android:text="0"
+					         android:background="@drawable/et"
+					         android:inputType="number" />
+					</LinearLayout> 
+				</LinearLayout>
+			
+		    <LinearLayout
+				android:id="@+id/gp2"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:gravity="center"
+		        android:orientation="vertical">
+			    
+		          <ImageButton
+			        android:id="@+id/imageButton2"
+			        android:layout_width="match_parent"
+			        android:layout_height="wrap_content"
+			        android:scaleType="fitXY"
+			        android:background="#00000000"
+			        android:src="@drawable/key2_1" />
+			     <EditText
+			         android:id="@+id/ET2"
+			         android:layout_width="45dp"
+			         android:layout_height="wrap_content"
+			         android:gravity="center"
+			         android:text="0"
+			         android:background="@drawable/et"
+			         android:inputType="number" />
+			     <ImageButton
+			        android:id="@+id/imageButton5"
+			        android:layout_width="match_parent"
+			        android:layout_height="wrap_content"
+			        android:scaleType="fitXY"
+			        android:background="#00000000"
+			        android:src="@drawable/key5_1" />
+			     <EditText
+			         android:id="@+id/ET5"
+			         android:layout_width="45dp"
+			         android:layout_height="wrap_content"
+			         android:gravity="center"
+			         android:text="0"
+			         android:background="@drawable/et"
+			         android:inputType="number" />
+			     <ImageButton
+			        android:id="@+id/imageButton8"
+			        android:layout_width="match_parent"
+			        android:layout_height="wrap_content"
+			        android:scaleType="fitXY"
+			        android:background="#00000000"
+			        android:src="@drawable/key8_1" />
+			     <EditText
+			         android:id="@+id/ET8"
+			         android:layout_width="45dp"
+			         android:layout_height="wrap_content"
+			         android:gravity="center"
+			         android:text="0"
+			         android:background="@drawable/et"
+			         android:inputType="number" />
+			     <ImageButton
+			        android:id="@+id/imageButton11"
+			        android:layout_width="match_parent"
+			        android:layout_height="wrap_content"
+			        android:scaleType="fitXY"
+			        android:background="#00000000"
+			        android:src="@drawable/key11_1" />
+			     <EditText
+			         android:id="@+id/ET11"
+			         android:layout_width="45dp"
+			         android:layout_height="wrap_content"
+			         android:gravity="center"
+			         android:text="0"
+			         android:background="@drawable/et"
+			         android:inputType="number" />
+			     <ImageButton
+			        android:id="@+id/imageButton14"
+			        android:layout_width="match_parent"
+			        android:layout_height="wrap_content"
+			        android:scaleType="fitXY"
+			        android:background="#00000000"
+			        android:src="@drawable/key14_1" />
+			     <EditText
+			         android:id="@+id/ET14"
+			         android:layout_width="45dp"
+			         android:layout_height="wrap_content"
+			         android:gravity="center"
+			         android:text="0"
+			         android:background="@drawable/et"
+			         android:inputType="number" />
+			     <ImageButton
+			        android:id="@+id/imageButton17"
+			        android:layout_width="match_parent"
+			        android:layout_height="wrap_content"
+			        android:scaleType="fitXY"
+			        android:background="#00000000"
+			        android:src="@drawable/key17_1" />
+			     <EditText
+			         android:id="@+id/ET17"
+			         android:layout_width="45dp"
+			         android:layout_height="wrap_content"
+			         android:gravity="center"
+			         android:text="0"
+			         android:background="@drawable/et"
+			         android:inputType="number" />
+			     <ImageButton
+			        android:id="@+id/imageButton20"
+			        android:layout_width="match_parent"
+			        android:layout_height="wrap_content"
+			        android:scaleType="fitXY"
+			        android:background="#00000000"
+			        android:src="@drawable/key20_1" />
+			     <EditText
+			         android:id="@+id/ET20"
+			         android:layout_width="45dp"
+			         android:layout_height="wrap_content"
+			         android:gravity="center"
+			         android:text="0"
+			         android:background="@drawable/et"
+			         android:inputType="number" />
+			     <ImageButton
+			        android:id="@+id/imageButton23"
+			        android:layout_width="match_parent"
+			        android:layout_height="wrap_content"
+			        android:scaleType="fitXY"
+			        android:background="#00000000"
+			        android:src="@drawable/key23_1" />
+			     <EditText
+			         android:id="@+id/ET23"
+			         android:layout_width="45dp"
+			         android:layout_height="wrap_content"
+			         android:gravity="center"
+			         android:text="0"
+			         android:background="@drawable/et"
+			         android:inputType="number" />
+			     <ImageButton
+			        android:id="@+id/imageButton26"
+			        android:layout_width="match_parent"
+			        android:layout_height="wrap_content"
+			        android:scaleType="fitXY"
+			        android:background="#00000000"
+			        android:src="@drawable/key26_1" />
+			     <EditText
+			         android:id="@+id/ET26"
+			         android:layout_width="45dp"
+			         android:layout_height="wrap_content"
+			         android:gravity="center"
+			         android:text="0"
+			         android:background="@drawable/et"
+			         android:inputType="number" />
+			     <ImageButton
+			        android:id="@+id/imageButton29"
+			        android:layout_width="match_parent"
+			        android:layout_height="wrap_content"
+			        android:scaleType="fitXY"
+			        android:background="#00000000"
+			        android:src="@drawable/key29_1" />
+			     <EditText
+			         android:id="@+id/ET29"
+			         android:layout_width="45dp"
+			         android:layout_height="wrap_content"
+			         android:gravity="center"
+			         android:text="0"
+			         android:background="@drawable/et"
+			         android:inputType="number" />
+			     <ImageButton
+			        android:id="@+id/imageButton32"
+			        android:layout_width="match_parent"
+			        android:layout_height="wrap_content"
+			        android:scaleType="fitXY"
+			        android:background="#00000000"
+			        android:src="@drawable/key32_1" />
+			     <EditText
+			         android:id="@+id/ET32"
+			         android:layout_width="45dp"
+			         android:layout_height="wrap_content"
+			         android:gravity="center"
+			         android:text="0"
+			         android:background="@drawable/et"
+			         android:inputType="number" />
+			 </LinearLayout>
+			 
+		     <LinearLayout
+				android:id="@+id/gp3"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:gravity="center"
+		        android:orientation="vertical">
+			     
+		         <ImageButton
+			        android:id="@+id/imageButton3"
+			        android:layout_width="match_parent"
+			        android:layout_height="wrap_content"
+			        android:scaleType="fitXY"
+			        android:background="#00000000"
+			        android:src="@drawable/key3_1" />
+		         <EditText
+			         android:id="@+id/ET3"
+			         android:layout_width="45dp"
+			         android:layout_height="wrap_content"
+			         android:gravity="center"
+			         android:text="0"
+		 	         android:background="@drawable/et"
+			         android:inputType="number" />
+			    <ImageButton
+			        android:id="@+id/imageButton6"
+			        android:layout_width="match_parent"
+			        android:layout_height="wrap_content"
+			        android:scaleType="fitXY"
+			        android:background="#00000000"
+			        android:src="@drawable/key6_1" />
+			    <EditText
+			         android:id="@+id/ET6"
+			         android:layout_width="45dp"
+			         android:layout_height="wrap_content"
+			         android:gravity="center"
+			         android:text="0"
+			         android:background="@drawable/et"
+			         android:inputType="number" />
+			    <ImageButton
+			        android:id="@+id/imageButton9"
+			        android:layout_width="match_parent"
+			        android:layout_height="wrap_content"
+			        android:scaleType="fitXY"
+			        android:background="#00000000"
+			        android:src="@drawable/key9_1" />
+		         <EditText
+			         android:id="@+id/ET9"
+			         android:layout_width="45dp"
+			         android:layout_height="wrap_content"
+			         android:gravity="center"
+			         android:text="0"
+		 	         android:background="@drawable/et"
+			         android:inputType="number" />
+			    <ImageButton
+			        android:id="@+id/imageButton12"
+			        android:layout_width="match_parent"
+			        android:layout_height="wrap_content"
+			        android:scaleType="fitXY"
+			        android:background="#00000000"
+			        android:src="@drawable/key12_1" />
+			    <EditText
+			         android:id="@+id/ET12"
+			         android:layout_width="45dp"
+			         android:layout_height="wrap_content"
+			         android:gravity="center"
+			         android:text="0"
+			         android:background="@drawable/et"
+			         android:inputType="number" />
+			     <ImageButton
+			        android:id="@+id/imageButton15"
+			        android:layout_width="match_parent"
+			        android:layout_height="wrap_content"
+			        android:scaleType="fitXY"
+			        android:background="#00000000"
+			        android:src="@drawable/key15_1" />
+		         <EditText
+			         android:id="@+id/ET15"
+			         android:layout_width="45dp"
+			         android:layout_height="wrap_content"
+			         android:gravity="center"
+			         android:text="0"
+		 	         android:background="@drawable/et"
+			         android:inputType="number" />
+			    <ImageButton
+			        android:id="@+id/imageButton18"
+			        android:layout_width="match_parent"
+			        android:layout_height="wrap_content"
+			        android:scaleType="fitXY"
+			        android:background="#00000000"
+			        android:src="@drawable/key18_1" />
+			    <EditText
+			         android:id="@+id/ET18"
+			         android:layout_width="45dp"
+			         android:layout_height="wrap_content"
+			         android:gravity="center"
+			         android:text="0"
+			         android:background="@drawable/et"
+			         android:inputType="number" />
+			    <ImageButton
+			        android:id="@+id/imageButton21"
+			        android:layout_width="match_parent"
+			        android:layout_height="wrap_content"
+			        android:scaleType="fitXY"
+			        android:background="#00000000"
+			        android:src="@drawable/key21_1" />
+		         <EditText
+			         android:id="@+id/ET21"
+			         android:layout_width="45dp"
+			         android:layout_height="wrap_content"
+			         android:gravity="center"
+			         android:text="0"
+		 	         android:background="@drawable/et"
+			         android:inputType="number" />
+			    <ImageButton
+			        android:id="@+id/imageButton24"
+			        android:layout_width="match_parent"
+			        android:layout_height="wrap_content"
+			        android:scaleType="fitXY"
+			        android:background="#00000000"
+			        android:src="@drawable/key24_1" />
+			    <EditText
+			         android:id="@+id/ET24"
+			         android:layout_width="45dp"
+			         android:layout_height="wrap_content"
+			         android:gravity="center"
+			         android:text="0"
+			         android:background="@drawable/et"
+			         android:inputType="number" />
+			   <ImageButton
+			        android:id="@+id/imageButton27"
+			        android:layout_width="match_parent"
+			        android:layout_height="wrap_content"
+			        android:scaleType="fitXY"
+			        android:background="#00000000"
+			        android:src="@drawable/key27_1" />
+		         <EditText
+			         android:id="@+id/ET27"
+			         android:layout_width="45dp"
+			         android:layout_height="wrap_content"
+			         android:gravity="center"
+			         android:text="0"
+		 	         android:background="@drawable/et"
+			         android:inputType="number" />
+			    <ImageButton
+			        android:id="@+id/imageButton30"
+			        android:layout_width="match_parent"
+			        android:layout_height="wrap_content"
+			        android:scaleType="fitXY"
+			        android:background="#00000000"
+			        android:src="@drawable/key30_1" />
+			    <EditText
+			         android:id="@+id/ET30"
+			         android:layout_width="45dp"
+			         android:layout_height="wrap_content"
+			         android:gravity="center"
+			         android:text="0"
+			         android:background="@drawable/et"
+			         android:inputType="number" />
+			    <ImageButton
+			        android:id="@+id/imageButton33"
+			        android:layout_width="match_parent"
+			        android:layout_height="wrap_content"
+			        android:scaleType="fitXY"
+			        android:background="#00000000"
+			        android:src="@drawable/key33_1" />
+		         <EditText
+			         android:id="@+id/ET33"
+			         android:layout_width="45dp"
+			         android:layout_height="wrap_content"
+			         android:gravity="center"
+			         android:text="0"
+		 	         android:background="@drawable/et"
+			         android:inputType="number" />
+			   </LinearLayout>
+	 </LinearLayout>
+ </ScrollView>    
+
+ 
+     <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+		android:textSize="10sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:text="IP地址:" />
+       <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:textColor="#FFFFFF"
+		android:textSize="10sp"
+        android:layout_marginTop="50dp"
+        android:text="端口号:" />
+
+         <EditText
+             android:id="@+id/editText1"
+             android:layout_width="100dp"
+             android:layout_height="15dp"
+             android:layout_marginTop="20dp"
+             android:layout_marginLeft="55dp"
+             android:paddingLeft="5dp"
+             android:ems="10"  
+             android:textSize="10sp" 
+             android:text="192.168.1.240"
+             android:numeric="integer"          
+             android:background="@drawable/et"
+             android:inputType="textPersonName" >
+         </EditText>
+	     <EditText
+             android:id="@+id/editText2"
+             android:layout_width="100dp"
+             android:layout_height="15dp"
+             android:layout_marginTop="50dp"
+             android:layout_marginLeft="55dp"
+             android:paddingLeft="5dp"
+             android:ems="10"  
+             android:textSize="10sp" 
+             android:text="8899"
+             android:background="@drawable/et"
+             android:inputType="number" >
+         </EditText>
+
+</RelativeLayout>

@@ -1,0 +1,27 @@
+ren key6_2*(10).png key7_2.png
+ren key6_2*(11).png key8_2.png
+ren key6_2*(12).png key9_2.png
+ren key6_2*(13).png key10_2.png
+ren key6_2*(14).png key11_2.png
+ren key6_2*(15).png key12_2.png
+ren key6_2*(16).png key13_2.png
+ren key6_2*(17).png key14_2.png
+ren key6_2*(18).png key15_2.png
+ren key6_2*(19).png key16_2.png
+ren key6_2*(2).png key17_2.png
+ren key6_2*(20).png key18_2.png
+ren key6_2*(21).png key19_2.png
+ren key6_2*(22).png key20_2.png
+ren key6_2*(23).png key21_2.png
+ren key6_2*(24).png key22_2.png
+ren key6_2*(25).png key23_2.png
+ren key6_2*(26).png key24_2.png
+ren key6_2*(27).png key25_2.png
+ren key6_2*(3).png key26_2.png
+ren key6_2*(4).png key27_2.png
+ren key6_2*(5).png key28_2.png
+ren key6_2*(6).png key29_2.png
+ren key6_2*(7).png key30_2.png
+ren key6_2*(8).png key31_2.png
+ren key6_2*(9).png key32_2.png
+ren key6_2 - ¸±±¾.png key33_2.png
